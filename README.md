@@ -3,7 +3,7 @@ This is a Python tool. Designed using the BEM theory to compute key performance 
 High-Efficiency Propeller Design for Human-Powered Aquatic Vehicle. It covered the full engineering workflow—from aerodynamic modeling and simulation to physical prototyping and lab testing. 
 
 #  High-Efficiency Propeller Simulation for Human-Powered Aquatic Vehicle
-This project presents a high-fidelity simulation of a **custom-designed propeller** intended for a human-powered aquatic vehicle. It models the **aerodynamic performance**, **mechanical response**, and **time-evolving system dynamics** using a combination of physics-based models and numerical methods. The codebase was developed entirely in Python and reflects a complete applied engineering workflow — from theoretical modeling to simulation and CAD-ready output.
+This project presents a high-fidelity simulation of a **custom-designed propeller** intended for a human-powered aquatic vehicle. It models the **aerodynamic performance**, **mechanical response**, and **time-evolving system dynamics** using a combination of physics-based models and numerical methods. The codebase was developed entirely in Python and reflects a complete applied engineering workflow — from theoretical modeling to simulation.
 
 The core objective was to evaluate and optimize propeller geometry (e.g., blade twist, chord, radius) to maximize **efficiency** and **thrust** under human power constraints, while modeling how the vehicle accelerates over time.
 
@@ -49,12 +49,6 @@ Developed as part of a technical engineering project, this code reflects skills 
 ### Output Files
 - `Main_results.csv`: Summary of simulation outcomes for each run.
 - `Scale factor *.csv`: Time-resolved simulation data for each condition.
-- `section_*.txt`: Airfoil blade geometry for CAD export.
-
-### SolidWorks Geometry Export (Optional)
-- Automatically exports 3D coordinates of blade sections along the span.
-- Can be directly imported into SolidWorks or other CAD tools for prototyping.
----
 
 ##  How to Run
 
@@ -70,16 +64,27 @@ Alpha,Cl,Cd
 ```
 
 ### 2. Run the Simulation 
-Use the terminal or command prompt. Once prompted, decide whether or not you would like to receive SolidWorks coordinates 
+Use the terminal or command prompt. 
 
+
+
+---
+## Future Work
+
+- **Incorporate physical constraints** into the angle of attack and the lift/drag coefficient functions.  
+  This will be achieved using *physics-informed machine learning* to ensure the values remain physically realistic.  
+
+- **Implement advanced optimization techniques**, such as gradient descent or alternative methods,  
+  to determine the required propeller parameters more efficiently.  
+
+- **Expand unit testing** to provide more comprehensive coverage and improve code reliability.  
 ---
 ## Author
 Developed as part of an engineering research project focused on aerodynamic optimization for human-powered aquatic propulsion. This repository reflects interests in simulation, numerical modeling, and applied quantitative analysis. 
 
 ---
-
 ## **⚠️ Disclaimer (Important)**
 
-As with any simulation, results may vary depending on the geometry and parameters used. There is no guarantee that a simulated performance will exactly reflect real-world behavior. This project is purely for academic and theoretical use; further research must be conducted before any further use (Practical or theoretical). 
+As with any simulation, results may vary depending on the geometry and parameters used. No simulated system will exactly reflect real-world behavior. This project is purely for academic and theoretical use; further research must be conducted before any further use (Practical or theoretical). 
 
-The author assumes no responsibility for any misuse, misinterpretation, or unintended consequences arising from the use of this code.
+The author assumes no responsibility for any misuse, misinterpretation, or unintended consequences arising from the use of this code; use at your own risk.
