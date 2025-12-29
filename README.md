@@ -53,7 +53,7 @@ Developed as part of a technical engineering project, this code reflects skills 
 ##  How to Run
 
 ### 1. Prepare Airfoil Data
-Provide a CSV file with airfoil data, like:
+Provide a CSV file with airfoil data (Data collected from airfoil tools), like:
 
 ```csv
 Alpha,Cl,Cd
