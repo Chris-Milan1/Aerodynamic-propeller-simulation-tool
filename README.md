@@ -85,6 +85,6 @@ Developed as part of an engineering research project focused on aerodynamic opti
 ---
 ## **⚠️ Disclaimer (Important)**
 
-As with any simulation, results may vary depending on the geometry and parameters used. No simulated system will exactly reflect real-world behavior. This project is purely for academic and theoretical use; further research must be conducted before any further use (Practical or theoretical). 
+As with any simulation, results may vary depending on the geometry and parameters used. No simulated system will exactly reflect real-world behavior. This project is purely for academic and theoretical use; further research must be conducted before any further use (Practical or theoretical). Always consult a chartered engineer prior to use. 
 
 The author assumes no responsibility for any misuse, misinterpretation, or unintended consequences arising from the use of this code; use at your own risk.
