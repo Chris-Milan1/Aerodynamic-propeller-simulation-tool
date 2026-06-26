@@ -1,4 +1,4 @@
-# Aerodynamic-propeller-simulation-tool
+# Hydrodynamic-propeller-simulation-tool
 This is a Python tool. Designed using the BEM theory to compute key performance metrics for propeller aerodynamic behaviour
 High-Efficiency Propeller Design for Human-Powered Aquatic Vehicle. It covered the full engineering workflow—from aerodynamic modeling and simulation to physical prototyping and lab testing. 
 
